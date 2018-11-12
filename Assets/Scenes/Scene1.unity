@@ -2661,6 +2661,11 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!82 &590653242 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82510586431557168, guid: 4db3f148cb2b7e448a119172124ca981,
+    type: 2}
+  m_PrefabInternal: {fileID: 829236830}
 --- !u!1001 &590956291
 Prefab:
   m_ObjectHideFlags: 0
@@ -3879,12 +3884,12 @@ Prefab:
     - target: {fileID: 224430274567371988, guid: 4db3f148cb2b7e448a119172124ca981,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -156.54419
+      value: -146.56435
       objectReference: {fileID: 0}
     - target: {fileID: 224430274567371988, guid: 4db3f148cb2b7e448a119172124ca981,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 143.1
+      value: 137.6
       objectReference: {fileID: 0}
     - target: {fileID: 1816570203248238, guid: 4db3f148cb2b7e448a119172124ca981, type: 2}
       propertyPath: m_Name
@@ -3893,7 +3898,7 @@ Prefab:
     - target: {fileID: 224430274567371988, guid: 4db3f148cb2b7e448a119172124ca981,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 373.4806
+      value: 427.48682
       objectReference: {fileID: 0}
     - target: {fileID: 65771771046103834, guid: 4db3f148cb2b7e448a119172124ca981,
         type: 2}
@@ -3905,9 +3910,64 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224210889662192800, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224210889662192800, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224210889662192800, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -130.80652
+      objectReference: {fileID: 0}
+    - target: {fileID: 114978752035146178, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: myCamera
+      value: 
+      objectReference: {fileID: 829236831}
+    - target: {fileID: 114659912478254856, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: myCamera
+      value: 
+      objectReference: {fileID: 829236831}
+    - target: {fileID: 23480804372316350, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114659912478254856, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_AudioSource
+      value: 
+      objectReference: {fileID: 590653242}
+    - target: {fileID: 114659912478254856, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: roca
+      value: 
+      objectReference: {fileID: 8300000, guid: 80d386cd4d283ab42802d05d62c20fec, type: 3}
+    - target: {fileID: 82510586431557168, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 82510586431557168, guid: 4db3f148cb2b7e448a119172124ca981,
+        type: 2}
+      propertyPath: BypassReverbZones
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4db3f148cb2b7e448a119172124ca981, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &829236831 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20844642565108262, guid: 4db3f148cb2b7e448a119172124ca981,
+    type: 2}
+  m_PrefabInternal: {fileID: 829236830}
 --- !u!1001 &829947516
 Prefab:
   m_ObjectHideFlags: 0
@@ -7060,7 +7120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1456510529
 AudioListener:
   m_ObjectHideFlags: 0

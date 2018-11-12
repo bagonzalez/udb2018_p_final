@@ -9,6 +9,9 @@ public class Personaje : MonoBehaviour {
 	private int _lives;
 	private int _mana;
 	public Transform SpawnPosition;
+	public Camera myCamera;
+	public AudioSource m_AudioSource;
+	public AudioClip roca;
 
 	//Canvas
 	public RectTransform BarMana;
@@ -130,10 +133,13 @@ public class Personaje : MonoBehaviour {
 		GameObject bullet = (GameObject)Instantiate(
 		bulletPrefab,
 		bulletSpawn.position,
-		bulletSpawn.rotation);
-
+		new Quaternion(0.0f, myCamera.transform.rotation.y, 0.0f , myCamera.transform.rotation.w));
+		
 		// Add velocity to the bullet
 		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 50;
+
+		m_AudioSource.clip = roca;
+		m_AudioSource.Play();
 
 		// Destroy the bullet after 2 seconds
 		Destroy(bullet, 5.0f);
