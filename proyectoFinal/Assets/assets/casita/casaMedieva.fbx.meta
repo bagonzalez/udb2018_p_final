@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 666b1f79d0563d242a73530aae83b192
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: casa
+    100002: //RootNode
+    100004: CINEMA_4D_Editor
+    100006: Cube
+    100008: Cube_1
+    100010: Cube_2
+    100012: Cube_3
+    100014: Cube_4
+    100016: Cube_5
+    100018: Floor
+    100020: puerta
+    100022: techo
+    100024: valla
+    100026: valla_1
+    100028: valla_2
+    100030: valla_3
+    100032: valla_4
+    100034: valla_5
+    100036: valla_6
+    400000: casa
+    400002: //RootNode
+    400004: CINEMA_4D_Editor
+    400006: Cube
+    400008: Cube_1
+    400010: Cube_2
+    400012: Cube_3
+    400014: Cube_4
+    400016: Cube_5
+    400018: Floor
+    400020: puerta
+    400022: techo
+    400024: valla
+    400026: valla_1
+    400028: valla_2
+    400030: valla_3
+    400032: valla_4
+    400034: valla_5
+    400036: valla_6
+    2000000: CINEMA_4D_Editor
+    2100000: valla2
+    2100002: valla
+    2100004: Pared
+    2100006: puerta
+    2100008: techo
+    2300000: casa
+    2300002: Cube
+    2300004: Cube_1
+    2300006: Cube_2
+    2300008: Cube_3
+    2300010: Cube_4
+    2300012: Cube_5
+    2300014: puerta
+    2300016: techo
+    2300018: valla
+    2300020: valla_1
+    2300022: valla_2
+    2300024: valla_3
+    2300026: valla_4
+    2300028: valla_5
+    2300030: valla_6
+    3300000: casa
+    3300002: Cube
+    3300004: Cube_1
+    3300006: Cube_2
+    3300008: Cube_3
+    3300010: Cube_4
+    3300012: Cube_5
+    3300014: puerta
+    3300016: techo
+    3300018: valla
+    3300020: valla_1
+    3300022: valla_2
+    3300024: valla_3
+    3300026: valla_4
+    3300028: valla_5
+    3300030: valla_6
+    4300000: Cube_5
+    4300002: Cube_4
+    4300004: Cube_3
+    4300006: Cube_2
+    4300008: Cube_1
+    4300010: Cube
+    4300012: valla_6
+    4300014: valla_5
+    4300016: valla_4
+    4300018: valla_3
+    4300020: valla_2
+    4300022: valla_1
+    4300024: valla
+    4300026: casa
+    4300028: puerta
+    4300030: techo
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
